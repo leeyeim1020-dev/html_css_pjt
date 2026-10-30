@@ -1,0 +1,73 @@
+b {
+    color: #0f0;
+}
+
+p {
+    color: #00f;
+}
+
+/*
+선택자 1. 전체 선택자     ******
+*/
+
+* {
+    font-weight: bold;
+}
+
+/*
+선택자 2. 태그선택자    ******
+*/
+div {
+    color: #ff0;
+    font-weight: bold;
+}
+
+/*
+선택자 3. 클래스 선택자    ******
+html에서 클래스 이름은 1개 이상일 수 있다.
+그리고, 클래스 이름은 중복 사용 가능하다.
+*/
+.p11 {
+    color: #0f0;
+    font-weight: bold;
+    background-color: #000;
+}
+
+.p111 {
+    color: #0ff;
+}
+
+.p3 {
+    font-size: 5em; /*  100%  */
+}
+
+.P1 {
+    color: #F00;
+    font-size: 5em;
+}
+
+/*
+ 선택자 4. ID(아이디) 선택자  ******
+ html에서 ID 이름은 무조건 1개이어야 한다.
+그리고 ID 이름은 중복 사용 불가하다
+ */
+#pp1 {
+    font-size: 2em;
+    color: #000;
+    background-color: #ccc;
+}
+
+#pp3 {
+    color: #f00;
+}
+
+/*
+
+선택자 5. 속성 선택자  ****
+html tag의 속성을 이용해서 element를 선택하는 선택자이다.
+*/
+input[type='text'] {
+    width: 200px;
+    color: #f00;
+    font-size: 2em;
+}

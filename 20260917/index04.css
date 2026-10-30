@@ -1,0 +1,25 @@
+div {
+    width: 200px;
+    height: 200px;
+}
+
+div.box01 {
+    background-color: #f00;
+}
+
+div.box02 {
+    background-color: #0f0;
+   /* margin: 50px 50px 50px 50px;*/
+   /*margin-top: 50px;
+   margin-right: 10px;
+   margin-bottom: 50px;
+   margin-left: 10px; */
+
+   /*margin: 50px 10px;*/
+
+   margin-left: -100px;
+}
+
+div.box03 {
+    background-color: #00f;
+}

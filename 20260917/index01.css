@@ -1,0 +1,49 @@
+p {
+    color: #f00;    
+}
+
+/*
+    클래스 선택자
+*/
+.news02 {
+    color: #00f;
+}
+.news01 {
+    color: #000;
+}
+
+/*
+    4. ID 선택자
+
+#novel {
+    color: #0ff;
+}
+*/
+
+/*
+    5. 속성 선택자
+*/
+input {
+    color: #f00;
+}
+
+input[type='password'] {
+    color: #00f;
+}
+
+p[Id='novel'] {
+    color: #f00;
+}
+
+
+input.idpw {
+    border: 1px solid #ccc;
+    outline: none;
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/*
+    6. 자손/후손 선택자 ****
+*/

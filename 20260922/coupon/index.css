@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#wrap div.coupon a { 
+    text-decoration: none;
+    color: #4fe3ee;
+}
+
+#wrap div.today h2 { 
+    text-decoration: none;
+    color: #fff;
+}
+
+.box {
+    width: 400px;
+    height: 300px;
+    background-color: #fff;
+    border-radius: 30px;
+}
+
+#wrap div.percent h3 {
+    text-decoration: none;
+    color: #000;
+}
+
+#wrap {
+    width: 500px;
+    margin: 50px auto;
+    padding: 100px 50px;
+}
+
+div {
+    background-color: #022dad;
+    padding: 10px 50px 20px;
+}
+
+#wrap div.body ul li a { 
+    text-decoration: none;
+    color: #c5c3c3;
+}

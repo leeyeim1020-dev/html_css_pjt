@@ -1,0 +1,51 @@
+/*
+    6. 자손/후손 선택자 ****
+*/
+
+/*후손 선택자*/
+div p {
+    color: #f00;
+}
+
+/*자손 선택자*/
+div > p {
+    color: #00f;
+}
+
+/*
+    7. 동위 선택자 **
+*/
+
+h2 + p {
+    color: #00f;
+}
+
+h2 ~ p {
+    font-weight: bold;
+}
+
+/*
+    8. 반응 선택자
+*/
+
+a {
+    text-decoration: none;
+    color: #242424;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+input {
+    width: 300px;
+    padding: 10px;
+    color: #f00;
+    font-weight: bold;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input:focus {
+    background-color: #6aeb5f;
+}
